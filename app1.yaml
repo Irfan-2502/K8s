@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: app1-nginx
-          image: stacksimplify/kube-nginxapp1:1.0.0
+          image: 686255977433.dkr.ecr.us-east-2.amazonaws.com/cicd:latest
           ports:
             - containerPort: 80
 ---
